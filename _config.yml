@@ -5,11 +5,12 @@ kramdown:
   hard_wrap: false
   parse_block_html: true
 github: academicpages
-url: https://academicpages.github.io/group-meeting 
-name: Your Group Name
-description: An initial blog and site for your group meeting
+url: http://localhost:4000/
+title: Newcastle Scalable Computing
+description:
 twitter: yourtwitterhandle
 calendar: https://yourcalendarurl
 mailinglist: https://yourmailinglisturl
 gravatar_url: 
 disqus_username:
+show_downloads: false

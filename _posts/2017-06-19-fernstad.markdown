@@ -1,0 +1,13 @@
+---
+layout: post
+title: To See What Isn’t There – Visualization of Missing Data
+speaker: Dr Sara Johansson Fernstad
+comments: true
+category: past
+tags: meeting <+ tags +>
+---
+
+__Time and Location:__ Monday 19th June 2017 10:45-12:00, Foyer Space, Ground Floor, The Core
+ 
+__Abstract:__
+Missing data are records that are absent from a data set. They are data that were intended to be recorded, but for some reason were not. Missing data occur in almost any domain and is a common data analysis challenge that causes problems such as biased results and reduced statistical rigour. Although data visualization has great potential to provide invaluable support for the investigation of missing data, missing data challenges are rarely addressed by the visualization society. This talk will cover various concepts and aspects in missing data analysis, suggesting patterns of relevance for gaining further understanding of ‘missingness’ in datasets and present the result of an evaluation of different visual representations of missing data. It will also suggest some directions for designing visualization to support the understanding of ‘missingness’ in data.

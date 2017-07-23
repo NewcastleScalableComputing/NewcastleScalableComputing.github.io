@@ -1,12 +1,12 @@
 ---
-layout: layout
+layout: default
 title: "About"
 ---
 
 <!-- You can edit this whole page, remove it, or use it as basis for any non-post pages you have. -->
 <section class="content">
 
-# {{ site.name }}
+<!-- # {{ site.name }}
 
 <ul class="listing">
 <li>
@@ -23,29 +23,78 @@ title: "About"
 <li>
 <span>2015-2016</span><a href="{{ site.url }}/previous.html">Previous Topics</a>
 </li>
+</ul> -->
+
+
+<section class="content">
+
+Scalable Group Seminars
+===============
+This website documents the seminar series of the <a href="http://www.ncl.ac.uk/computing/research/groups/scalable/#about">Scalable Computing</a> research group at Newcastle University.
+
+To coincide with the School of Computing Science's move to the <a href="http://www.ncl.ac.uk/computing/about/usb/">Urban Sciences Building</a>, the Scalable Seminars will adjourn until September.
+
+If you wish to participate, please contact <a href="mailto:matthew.forshaw@ncl.ac.uk">Matt Forshaw</a> or raise a Pull Request on Github <a href="https://github.com/NewcastleScalableComputing/NewcastleScalableComputing.github.io">here</a>.
+
+<ul class="listing">
+  {% assign upcoming = (site.posts | where: "category" , "upcoming") %}
+  {% for post in upcoming reversed %}
+  <li>
+  <span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+  </li>
+  {% endfor %}
 </ul>
 
+<!-- ## Upcoming Seminars
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Date</th>
+      <th style="text-align: left">Title</th>
+      <th style="text-align: left">Speaker</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% assign upcoming = (site.posts | where: "category" , "upcoming") %}
+  {% if upcoming == null %}
+    <p>test</p>
 
-## What:
+  {% endif %}
+  {% for post in upcoming reversed %}
+    <tr>
+      <td style="text-align: left">{{ post.date | date: "%B %e, %Y" }}</td>
+      <td style="text-align: left"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></td>
+      <td style="text-align: left">TBC</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table> -->
 
-This is a description of your group.
 
-## Where:
 
-This is where your group's meetings are held.
 
-## When:
+## Previous Seminars
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Date</th>
+      <th style="text-align: left">Title</th>
+      <th style="text-align: left">Speaker</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% assign past = (site.posts | where: "category" , "past") %}
+  {% for post in past %}
+    <tr>
+      <td style="text-align: left">{{ post.date | date: "%B %e, %Y" }}</td>
+      <td style="text-align: left"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></td>
+      <td style="text-align: left">{{ post.speaker }}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
 
-This is when your group meets.
+</section>
 
-## How:
-
-### Participation
-
-This is how you participate in your group.
-
-### Communications
-
-Links to various lists and chat services.
 
 </section>

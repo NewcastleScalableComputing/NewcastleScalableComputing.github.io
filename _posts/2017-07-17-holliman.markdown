@@ -1,0 +1,13 @@
+---
+layout: post
+title: Visualization Tools and Techniques
+speaker: Prof Nick Holliman
+comments: true
+category: past
+tags: meeting <+ tags +>
+---
+
+__Time and Location:__ Monday 17th July 2017 10:45-12:00, Foyer Space, Ground Floor, The Core
+ 
+__Abstract:__
+Do you want to understand your data? Do you want to create visualizations that explain your data to others? We will briefly review the purpose, use and outputs of visualization (BI style) software tools such as Power BI and Tableau.

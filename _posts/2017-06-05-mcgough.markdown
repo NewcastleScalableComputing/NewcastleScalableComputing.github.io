@@ -1,0 +1,13 @@
+---
+layout: post
+title: Sentiment Analysis using Probabilistic Topic Modelling and Unsupervised Deep Learning 
+speaker: Dr Stephen McGough
+comments: true
+category: past
+tags: meeting <+ tags +>
+---
+
+__Time and Location:__ Monday 5th June 2017 10:45-12:00, Foyer Space, Ground Floor, The Core
+ 
+__Abstract:__
+It is estimated that 85% of worldwide data is held in unstructured/unlabelled formats - increasing at a rate of roughly 7 million digital pages per day. Exploiting these large datasets can open the door for providing policy makers, corporations, and end-users with unprecedented knowledge for better planning, decision making, and new services. Deep learning and probabilistic topic modelling have shown great potential for analysing such datasets. This analysis helps in: discovering anomalies within these datasets, unravelling underlying patterns/trends, or finding similar texts within a dataset. We'll illustrate how we can use a combined unsupervised deep learning and topic modelling approach for sentiment analysis requiring minimal feature engineering or prior assumptions, and outperforming the state of the art approaches to sentiment analysis.

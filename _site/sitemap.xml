@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>http://localhost:4000/</loc>
+    </url>
+    
+    
+    <url>
+        <loc>http://localhost:4000//past/2017/07/17/holliman.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000//past/2017/06/19/fernstad.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000//past/2017/06/05/mcgough.html</loc>
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000//past/2017/05/08/michalak.html</loc>
+    </url>
+    
+</urlset>

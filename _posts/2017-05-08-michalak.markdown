@@ -1,0 +1,22 @@
+---
+layout: post
+title: Automating Computational Placement in IoT Environments
+speaker: Peter Michalák
+comments: true
+category: past
+tags: meeting <+ tags +>
+---
+
+__Time and Location:__ Monday 8th May 2017 10:45-12:00, Location TBC
+ 
+__Abstract:__
+This work in progress talk will provide an overview of a project designed to deliver an optimised execution plan for IoT environments based on a high level declarative description of computation, current state of infrastructure and a set of non-functional requirements. The current state of a tool for an automated decomposition of Event Processing Language master query into a directed graph of computation will be presented with operator placement strategies, cost model integration, as well as an initial approach for deployment and monitoring of IoT devices used within the healthcare use cases (Pebble Watch, iPhone).
+ 
+A range of technology embedded within the project will be covered during the presentation, such as: Esper - CEP engine; Neo4j - graph database; Apache ZooKeeper - reliable distributed coordination service; ActiveMQ - message broker, and others.
+ 
+Supervisory Team: Prof. Paul Watson, Dr. Sarah Heaps, Prof. Mike Trenell
+ 
+__Relevant Publications__
+
+Michalák, Peter, et al. "Automating computational placement in IoT environments: doctoral symposium." Proceedings of the 10th ACM International Conference on Distributed and Event-based Systems. ACM, 2016. [[Paper.]](http://dl.acm.org/citation.cfm?id=2933435&CFID=928564786)
+
