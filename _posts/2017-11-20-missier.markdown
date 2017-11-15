@@ -17,5 +17,3 @@ In the ReComp project, we investigate general methods for optimising re-computat
 In this talk we will present a generic selective re-computation framework and how it applies to our genomics case study.
 
 We outline a number of open research challenges that emerge from our initial investigation, including learning useful predictive models of change impact from the history database. 
-
-test
