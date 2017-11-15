@@ -1,0 +1,10 @@
+---
+layout: post
+title: Novel visualization and metrics for exploration of incomplete data
+speaker: Dr Sara Fernstad
+comments: true
+category: upcoming
+tags: meeting <+ tags +>
+---
+
+__Time and Location:__ Monday 18th December 2017 11:00-12:00, Urban Sciences Building USB2.022
