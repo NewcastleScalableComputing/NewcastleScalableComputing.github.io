@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Preserving the currency of genomics outcomes over time through selective re-computation: techniques, initial findings, and open challenges
+title: Preserving the currency of genomics outcomes over time through selective re-computation&#58; techniques, initial findings, and open challenges
 speaker: Dr Paolo Missier and Dr Jacek Cala
 comments: true
-category: past
+category: upcoming
 tags: meeting <+ tags +>
 ---
 

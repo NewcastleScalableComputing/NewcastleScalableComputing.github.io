@@ -32,18 +32,7 @@ Scalable Group Seminars
 ===============
 This website documents the seminar series of the <a href="http://www.ncl.ac.uk/computing/research/groups/scalable/#about">Scalable Computing</a> research group at Newcastle University.
 
-To coincide with the School of Computing Science's move to the <a href="http://www.ncl.ac.uk/computing/about/usb/">Urban Sciences Building</a>, the Scalable Seminars will adjourn until September.
-
 If you wish to participate, please contact <a href="mailto:matthew.forshaw@ncl.ac.uk">Matt Forshaw</a> or raise a Pull Request on Github <a href="https://github.com/NewcastleScalableComputing/NewcastleScalableComputing.github.io/pulls">here</a>.
-
-<ul class="listing">
-  {% assign upcoming = (site.posts | where: "category" , "upcoming") %}
-  {% for post in upcoming reversed %}
-  <li>
-  <span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-  </li>
-  {% endfor %}
-</ul>
 
 <!-- ## Upcoming Seminars
 <table>
@@ -71,6 +60,27 @@ If you wish to participate, please contact <a href="mailto:matthew.forshaw@ncl.a
 </table> -->
 
 
+
+## Upcomiong Seminars
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Date</th>
+      <th style="text-align: left">Title</th>
+      <th style="text-align: left">Speaker</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% assign upcoming = (site.posts | where: "category" , "upcoming") %}
+  {% for post in upcoming %}
+    <tr>
+      <td style="text-align: left">{{ post.date | date: "%B %e, %Y" }}</td>
+      <td style="text-align: left"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></td>
+      <td style="text-align: left">{{ post.speaker }}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
 
 
 ## Previous Seminars
