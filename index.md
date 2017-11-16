@@ -61,7 +61,7 @@ If you wish to participate, please contact <a href="mailto:matthew.forshaw@ncl.a
 
 
 
-## Upcomiong Seminars
+## Upcoming Seminars
 <table>
   <thead>
     <tr>
