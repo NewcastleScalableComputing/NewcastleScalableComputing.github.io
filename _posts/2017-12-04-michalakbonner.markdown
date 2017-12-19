@@ -31,7 +31,7 @@ empirical and synthetic datasets, to assess the effectiveness of
 several approaches at creating graph embeddings which capture detailed
 topological structure.
 
-[[Slides]](assets/slides/20171204_Bonner_graph_embeddings.pdf)
+[[Slides]]({site.url}/assets/slides/20171204_Bonner_graph_embeddings.pdf)
 
 
 __PATH2iot: A Holistic, Distributed Stream Processing System, Peter Michalák__
